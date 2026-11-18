@@ -1,0 +1,152 @@
+export const initialLiveClasses = [
+  {
+    id: 'live-1',
+    title: 'Rotational Motion & Moment of Inertia - Advanced JEE Problem Solving',
+    subject: 'Physics',
+    category: 'JEE',
+    targetExam: 'JEE Main & Advanced 2025',
+    instructor: 'Dr. Rajesh Verma',
+    instructorAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80',
+    date: 'Today',
+    time: 'Live Now',
+    scheduledStartTime: '09:30 AM',
+    duration: '90 min',
+    isLive: true,
+    attendeesCount: 1420,
+    roomUrl: 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ',
+    description: 'Solving top 15 toughest previous year questions on rolling motion with slipping and angular momentum conservation.',
+    notesAvailable: true,
+    chatMessages: [
+      { id: 'm1', sender: 'Aarav Sharma', role: 'student', text: 'Sir, how do we take the torque about the instantaneous axis of rotation?', time: 'Just now' },
+      { id: 'm2', sender: 'Dr. Rajesh Verma', role: 'teacher', text: 'Great question Aarav! When rolling without slipping, IAOR is at the contact point where velocity is zero, so torque of friction vanishes.', time: 'Just now' },
+      { id: 'm3', sender: 'Sneha Patel', role: 'student', text: 'Crystal clear now sir! Thank you!', time: '1m ago' },
+      { id: 'm4', sender: 'Rohan (AIR 3)', role: 'student', text: 'This shortcut saved me 4 minutes in Mock 7!', time: '2m ago' }
+    ],
+    pollQuestion: {
+      id: 'poll-1',
+      question: 'A solid cylinder and a hollow sphere of same mass and radius roll down an incline without slipping. Which reaches the bottom first?',
+      options: ['Solid Cylinder', 'Hollow Sphere', 'Both at same time', 'Depends on angle of inclination'],
+      correctOption: 0,
+      votes: [68, 22, 6, 4]
+    }
+  },
+  {
+    id: 'live-2',
+    title: 'Genetics: Dihybrid Cross, Linkage & Recombination (NCERT Decoded)',
+    subject: 'Biology',
+    category: 'NEET',
+    targetExam: 'NEET-UG 2025',
+    instructor: 'Dr. Ananya Mukherjee',
+    instructorAvatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80',
+    date: 'Today',
+    time: '5:00 PM - 6:30 PM',
+    scheduledStartTime: '05:00 PM',
+    duration: '90 min',
+    isLive: false,
+    attendeesCount: 2150,
+    roomUrl: 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ',
+    description: 'Master Morgan’s Drosophila experiment and calculate recombination frequencies to construct chromosome maps.',
+    notesAvailable: true
+  },
+  {
+    id: 'live-3',
+    title: 'Definite Integration & Area Under Curves - 30s Super Shortcuts',
+    subject: 'Mathematics',
+    category: 'JEE',
+    targetExam: 'JEE Main 2025',
+    instructor: 'Prof. Vikramaditya Rathore',
+    instructorAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80',
+    date: 'Today',
+    time: '7:30 PM - 9:00 PM',
+    scheduledStartTime: '07:30 PM',
+    duration: '90 min',
+    isLive: false,
+    attendeesCount: 1890,
+    roomUrl: 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ',
+    description: 'Special session on King’s Property, Walli’s Formula, and symmetry tricks to crack 4 questions in 5 minutes.',
+    notesAvailable: true
+  },
+  {
+    id: 'live-4',
+    title: 'Aldehydes, Ketones & Carboxylic Acids: Name Reactions Rapid Fire',
+    subject: 'Chemistry',
+    category: 'Class 12',
+    targetExam: 'CBSE Class 12 & JEE/NEET',
+    instructor: 'Dr. Meenakshi Sundaram',
+    instructorAvatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80',
+    date: 'Tomorrow',
+    time: '4:00 PM - 5:30 PM',
+    scheduledStartTime: '04:00 PM',
+    duration: '90 min',
+    isLive: false,
+    attendeesCount: 940,
+    roomUrl: 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ',
+    description: 'Aldol condensation, Cannizzaro, Clemmensen, Wolff-Kishner, and Hell-Volhard-Zelinsky with complete mechanism charts.',
+    notesAvailable: true
+  },
+  {
+    id: 'live-5',
+    title: 'CUET General Test: Quantitative Aptitude & Data Interpretation Bootcamp',
+    subject: 'General Test',
+    category: 'CUET',
+    targetExam: 'CUET UG 2025',
+    instructor: 'Prof. Vikramaditya Rathore',
+    instructorAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80',
+    date: 'Tomorrow',
+    time: '6:30 PM - 8:00 PM',
+    scheduledStartTime: '06:30 PM',
+    duration: '90 min',
+    isLive: false,
+    attendeesCount: 1120,
+    roomUrl: 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ',
+    description: 'Bar charts, Pie charts, Profit & Loss formulas, and Number Series for 100% accuracy in CUET Section III.',
+    notesAvailable: true
+  }
+];
+
+export const pastRecordings = [
+  {
+    id: 'past-1',
+    title: 'Electromagnetic Induction & Faraday-Lenz Law Complete Marathon',
+    subject: 'Physics',
+    instructor: 'Dr. Rajesh Verma',
+    date: 'Yesterday',
+    duration: '1h 45m',
+    views: '8.4k views',
+    videoUrl: 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ',
+    notesPdf: 'EMI_Complete_Master_Notes.pdf'
+  },
+  {
+    id: 'past-2',
+    title: 'Human Reproduction & Reproductive Health 1-Shot NCERT',
+    subject: 'Biology',
+    instructor: 'Dr. Ananya Mukherjee',
+    date: '2 days ago',
+    duration: '1h 38m',
+    views: '12.1k views',
+    videoUrl: 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ',
+    notesPdf: 'Human_Reproduction_NCERT_Key.pdf'
+  },
+  {
+    id: 'past-3',
+    title: 'Matrices & Determinants Properties and System of Equations',
+    subject: 'Mathematics',
+    instructor: 'Prof. Vikramaditya Rathore',
+    date: '3 days ago',
+    duration: '1h 25m',
+    views: '6.9k views',
+    videoUrl: 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ',
+    notesPdf: 'Matrices_Shortcuts_Formula.pdf'
+  },
+  {
+    id: 'past-4',
+    title: 'Chemical Equilibrium & Le Chatelier Principle in Detail',
+    subject: 'Chemistry',
+    instructor: 'Dr. Meenakshi Sundaram',
+    date: '4 days ago',
+    duration: '1h 30m',
+    views: '9.2k views',
+    videoUrl: 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ',
+    notesPdf: 'Equilibrium_Master_CheatSheet.pdf'
+  }
+];
